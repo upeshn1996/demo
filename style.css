@@ -1,0 +1,150 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html,body{
+   line-height: 1.6;
+   font-weight: 300;
+   min-height: 230vh;
+}
+.hero-section{
+   background-image: url(pxfuel\ \(1\).jpg);
+   min-height: 100vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 800px;
+}
+.text-container{
+   color:red;
+   max-width: 3000px;
+   max-height: 500px;
+   margin:0 auto;
+   box-shadow: 5px 5px 3px black;
+   font-size: 50px;
+   padding:0px;
+   background-color: rgba(240, 248, 255, 0.6);
+   border-radius: 20px;
+}
+.text-container h2{
+   text-align: center;
+   text-transform: uppercase;
+}
+.signup{
+   background-color: rgba(250, 235, 215, 0.285);
+   margin-left:300px ;
+   width:400px;
+   height: 440px;
+   text-align: center;
+   margin-top: 40px;
+}
+.signup h2{
+   font-size: 60px;
+   font-weight: 1000;
+   color: rgb(255, 57, 7);
+   padding: 20px;
+   text-transform: uppercase;
+   padding: 20px;
+}
+ 
+ 
+
+.text-name,.text-mail{
+   color: blue;
+   font-size: 30px;
+   font-weight: 700px;
+   
+}
+#text-box{
+   width: 280px;
+   height: 40px;
+   margin-left: 20px;
+   padding: 10px;
+   font-size: 20px;
+}
+.button{
+   cursor:pointer;
+   width: 150px;
+   height: 40px;
+   background-color: rgb(53, 222, 90);
+   color: rgb(250, 254, 251);
+   font-size: 20px;
+   font-weight: 800;
+   border: none;
+}
+.button:hover{
+   background-color: rgb(235, 33, 6);
+}
+.forget{
+   text-decoration: none;
+   font-size: 20px;
+   color: blue;
+   padding: 10px;
+}
+.black-box{
+font-size: 40px;
+text-align: center;
+text-transform: uppercase;
+color:red;
+padding: 20px;
+}
+.work{
+   
+   display:grid;
+   grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+
+}
+.card {
+ 
+   width: 280px;
+   font-size: 0px;
+   height: 200px;
+   border-radius: 50px;
+   margin-left: 60px;
+   text-align: center;
+   font-weight:
+  
+   
+}
+.image-1,.image-2,.image-3 {
+   
+   width: 400px;
+   height: 300px;
+   border-radius: 20px;
+   box-shadow: 10px 10px 5px rgb(87, 82, 82);
+
+}
+.work-2{
+   display:grid;
+   grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+
+}
+.card-1,.card-2,.card-3{
+   width: 400px;
+   height: 200px;
+   border-radius: 50px;
+   margin-top: 70px;
+   margin-left: 60px;
+   text-align: center;
+
+}
+.work-2 img:hover{
+transform: scale(1.2);
+}
+.work img:hover{
+   transform: scale(1.2);
+
+}
+h3{
+   font-size: 40px;
+   color:red;
+   margin-left: 20px;
+
+}
+p{
+   font-size:15px;
+   color: blue;
+}
+.
+
